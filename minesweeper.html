@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        td {
+            border: 1px solid darkgray;
+            padding: 2px;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bolder;
+            text-shadow: 1px 0 #888888;
+            background-color: gray;
+        }
+
+        td.x3 {
+            color: red;
+        }
+
+        td.x2 {
+            color: green;
+        }
+
+        td.x1 {
+            color: blue;
+        }
+
+
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+Minesweeper
+
+<table>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none">💣</span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td class="x2"><span style="display: none">2</span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td class="x3"><span style="display: none">3</span></td>
+        <td><span style="display: none">💣</span></td>
+        <td class="x2"><span style="display: none">2</span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none">💣</span></td>
+        <td><span style="display: none">💣</span></td>
+        <td class="x2"><span style="display: none">2</span></td>
+        <td><span style="display: none"> </span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td class="x2"><span style="display: none">2</span></td>
+        <td class="x2"><span style="display: none">2</span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+        <td><span style="display: none">💣</span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td class="x1"><span style="display: none">1</span></td>
+    </tr>
+    <tr>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+        <td><span style="display: none"></span></td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    var allTds = document.getElementsByTagName('td');
+    for (var i = 0; i < allTds.length; i++) {
+        var tmp = allTds[i];
+        tmp.addEventListener("click", handleClick, false);
+    }
+
+    function handleClick(aMouseEvent) {
+        var tdElement = aMouseEvent.srcElement;
+        tdElement.style.backgroundColor = 'lightcyan';
+        var spanElement = tdElement.getElementsByTagName('span')[0];
+        spanElement.style.display = 'inline';
+    }
+</script>
+</body>
+</html>
+
